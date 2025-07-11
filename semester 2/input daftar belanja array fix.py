@@ -24,10 +24,10 @@ pilihan4.append((barang4, harga4))
 
 print("hasil belanjaan anda")
 for i in pilihan1:
-    print(f"Kelompok 1: {i[1]},  Harga: {i[1]}")
+    print(f"Kelompok 1: {i[0]},  Harga: {i[1]}")
 for i in pilihan2:
-    print(f"Kelompok 2: {i[1]}, Harga: {i[1]}")
+    print(f"Kelompok 2: {i[0]}, Harga: {i[1]}")
 for i in pilihan3:
-    print(f"Kelompok 3: {i[1]}, Harga: {i[1]}")
+    print(f"Kelompok 3: {i[0]}, Harga: {i[1]}")
 for i in pilihan4:
-    print(f"Kelompok 4: {i[1]}, Harga: {i[1]}")
+    print(f"Kelompok 4: {i[0]}, Harga: {i[1]}")
